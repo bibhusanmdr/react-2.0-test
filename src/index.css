@@ -1,0 +1,163 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:inherit;
+	font-family:Lato;
+}
+
+.container{
+	width:100%;
+}
+
+.inner-container{
+	width:100%
+}
+
+.header
+{
+	height: 40px;
+    width: 100%;
+    background-color: #3b3b3f;
+	position:fixed;
+	top:0px;
+	z-index:1000;
+}
+
+.logo
+{
+	height:20px;
+	margin: 10px 10px 10px 60px;
+}
+
+.main
+{ 
+	height:700px;
+   background: url('img/photo-couch.jpg') no-repeat; 
+  background-size: cover;
+  width:100%;
+}
+.inner-main
+{
+	position:absolute;
+	font-weight:bold;
+	width:380px;
+	color:white;
+	top: 350px;
+    left: 150px;
+}
+
+.btn
+{   height: 32px;
+    background-color: #50e3c2;
+    border: none;
+    border-radius: 18px 18px;
+    padding: 8px 20px 8px 20px;
+	font-family:inherit;
+	font-family:Lato;
+	font-weight:bold;
+	
+}
+
+button:hover
+{
+	background-color: #00ffc6;
+	 transition: 0.3s;
+	 color: black;
+}
+
+.section
+{
+width:100%;
+background-color: #f2f1ef;
+}
+.step-container
+{
+	width: 70%;
+    margin: auto;
+    min-height: 200px;
+    background-color: #f2f1ef;
+    padding: 0px 50px 50px 50px
+}
+
+
+
+.box
+{ 
+	width: 20%;
+    float: left;
+    margin: 15px;	
+	padding:10px;
+}
+
+.box-heading
+{
+	text-align:center;
+	font-weight:bold;
+}
+.hoz-box{
+	
+    padding: 0px;
+    width: 45px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+	background-color:#50e3c2;
+	height:2px;
+	
+} 
+
+.box-h1{
+	    margin-bottom: 0px;
+}
+.box-h6
+{
+	margin-top: 10px;
+}
+p
+{
+	font-weight: bold;
+	
+}
+
+
+.main-heading
+{
+	margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 767px) {
+.box-xs{
+	 width:100%;
+ }
+ .box{
+	 margin:0px;
+	 padding:0px;
+ }
+ .inner-main {	
+    width: 100%;
+    top: 350px;
+    text-align: center;
+	left:0; 
+}
+.step-container {
+	height:750px !important;
+}
+ 
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .box-xs{
+	 width:38%;
+ }
+ .step-container {
+	height:435px !important;
+}
+}
+
+

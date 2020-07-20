@@ -1,0 +1,24 @@
+
+.box
+{ 
+	width: 20%;
+    float: left;
+    margin: 15px;	
+	padding:10px;
+}
+
+.box-heading
+{
+	text-align:center;
+	font-weight:bold;
+}
+.hoz-box{
+	
+    padding: 0px;
+    width: 45px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+	background-color:#50e3c2;
+	height:2px;
+	
+}
